@@ -577,7 +577,7 @@ img {
     background-color: #FCFCFC;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -679,6 +679,29 @@ img {
 
 .list_item {
     width: calc((100% - 48px) / 3);
+}
+
+.contacts_label {
+    display: block;
+    color: #8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+}
+
+.wrap_input {
+    position: relative;
+    min-width: 360px;
+    height: 40px;
+}
+
+.contact_svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
