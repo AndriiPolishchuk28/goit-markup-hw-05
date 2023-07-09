@@ -526,6 +526,7 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .email_input::placeholder {
@@ -537,7 +538,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;
@@ -551,6 +551,7 @@ img {
 
 .subscribe_svg {
     fill: #fff;
+    margin-left: 16px;
 }
 
 .backdrop {
