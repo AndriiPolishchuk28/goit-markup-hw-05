@@ -437,7 +437,6 @@
               </svg>
             </div>
           </div>
-
           <div class="contacts_form">
             <label class="contacts_label" for="phone">Phone</label>
             <div class="wrap_input">
@@ -465,10 +464,25 @@
             <label class="contacts_label" for="user-comment">Comment</label>
             <textarea
               class="textarea"
-              name="comment"
+              name="user-comment"
               id="user-comment"
               placeholder="Text input"
             ></textarea>
+          </div>
+          <div class="privacy_wrap">
+            <label class="contacts_label" for="user-privacy"
+              ><span class="checkbox_svg">
+                <svg width="16" height="16">
+                  <use href="./images/icons.svg#icon-Checkbox-1"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the Privacy Policy</label
+            >
+            <input
+              class="visually-hidden input_ckeckbox"
+              type="checkbox"
+              id="user-privacy"
+            />
           </div>
         </form>
       </div>
