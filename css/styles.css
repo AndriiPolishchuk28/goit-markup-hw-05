@@ -772,7 +772,8 @@ img {
 .input_ckeckbox:checked + .checkbox_svg {
     border: 1.25px solid transparent;
     background-color: #404bbf;
-    fill: #f4f4fd;
+    fill: var(--background-cloud-color);
+    border: none;
 }
 
 .policy_text {
