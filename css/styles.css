@@ -769,8 +769,7 @@ img {
     margin-bottom: 24px;
 }
 
-.input_ckeckbox:checked + .checkbox_svg {
-    border: 1.25px solid transparent;
+.input_ckeckbox:checked + .contacts_label > .checkbox_svg {
     background-color: #404bbf;
     fill: var(--background-cloud-color);
     border: none;
